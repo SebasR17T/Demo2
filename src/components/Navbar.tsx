@@ -2,11 +2,9 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-black py-4 fixed w-full z-10">
+<nav className="bg-black py-4 fixed w-full z-10">
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <a href="#" className="text-2xl font-bold text-blue-500 font-serif">
-          StrikeProductions
-        </a>
+        <img src="/logo.png" alt="StrikeProductions Logo" className="h-8 mr-2" />
         <div className="flex space-x-6">
           <a href="#services" className="hover:text-blue-400 transition-colors font-serif">
             Servicios
